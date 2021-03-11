@@ -3,5 +3,10 @@
 The order of characters is important -- a string "abcEnglishdef" is correct but "abcnEglishsef" is not correct. */
 
 function spEng(sentence){
-    return sentence.indexOf('english') > -1 
-   }
+    sentence = sentence.toLowerCase()
+  if(sentence.includes('english')){
+    return true
+  }else{
+    return false
+  }
+  }

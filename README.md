@@ -1,3 +1,3 @@
 # Coding-Challenges
 
-CODING CHALLENGES TO KEEP MIND SHARP AND CONTINUE LEARNING
+Coding Challenges to Keep Mind Sharp and Continue Learning

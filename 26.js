@@ -4,4 +4,7 @@ Return the average of the given array rounded down to its nearest integer.
 
 The array will never be empty. */ 
 
- 
+function getAverage(marks){
+    let newArr = marks.reduce((sum, current) => sum + current, 0)
+    return  Math.floor(newArr/marks.length)
+  }

@@ -1,5 +1,4 @@
 
-
 // Sum all the numbers of the array except the highest and the lowest element (the value, not the index!).
 // Example:
 // [ 6, 2, 1, 8, 10 ] => 16

@@ -3,7 +3,8 @@
 
 
 function orderAges(array) {
-
+    let newArr = array.sort((a, b) => a - b)
+    
           }
           console.log(orderAges([23, 3, 10, 54]))
 

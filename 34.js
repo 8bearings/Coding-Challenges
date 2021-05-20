@@ -5,7 +5,10 @@
 // [ 1, 1, 11, 2, 3 ] => 6
 
 function highestLowest(array) {
-    let newArr = array.sort((a, b)=> a - b)
-    console.log(newArr)
+     let newArr = array.sort((a, b)=> a - b)
+        newArr.pop()
+        newArr.shift()
+    let finalArr = newArr.reduce((a,b)=> a + b)
+    console.log(finalArr)
           }
-          console.log(highestLowest([1, 1, 11, 2, 3 ]))
+          console.log(highestLowest([1, 1, 11, 2, 3]))

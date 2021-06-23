@@ -9,8 +9,8 @@ So friendship is twice stronger than love :-)
 The input will always be in lowercase and never be empty. */
 
 function wordsToMarks(string){
-  let sum = 0;
+  let sum = 0
   for (let i = 0; i < string.length; i++)
-    sum += str.charCodeAt(i) - 96;
-  return sum;
+    sum += str.charCodeAt(i) - 96
+  return sum
 }

@@ -1,5 +1,4 @@
 /* Your job is to figure out the index of which vowel is missing from a given string:
-
 A has an index of 0,
 E has an index of 1,
 I has an index of 2,

@@ -16,4 +16,6 @@ function fac(n){
 }
 console.log(fac(3))
 
+
+
 // O(n)

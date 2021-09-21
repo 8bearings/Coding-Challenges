@@ -6,3 +6,5 @@ function digitize(n) {
     return joinReverse.map(Number)
     }
     
+
+   

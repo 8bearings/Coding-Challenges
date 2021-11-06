@@ -7,8 +7,8 @@ Return the array ans. */
 var getConcatenation = function(nums) {
     //     Concat the two array of nums
         let ans = []
-        nums.forEach(num=> ans.push(num))
-        nums.forEach(num=> ans.push(num))
+        nums.forEach(num => ans.push(num))
+        nums.forEach(num => ans.push(num))
         return ans
         
     };

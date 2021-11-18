@@ -10,4 +10,5 @@ function reverseStr(str){
     
     return arr.join('')
 }
+
 console.log(reverseStr("Butter Peacan"))

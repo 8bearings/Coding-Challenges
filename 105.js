@@ -36,11 +36,16 @@ const inputLog = [
 // Search through and find A,B,C in order by one user
 
 function findSeq(inputLog) {
+  
     let userArr = []
-
-    for(let i = 0; i<inputlog.length; i++){
-        let user = inputLog[i].user;
-        let action = inputLog[i].action;
+    
+    
+    for(let i = 0; i < inputLog.length; i++){
+      let user = inputLog[i].user;
+      let action = inputLog[i].action;
+        if(action === "A","B","C" && user == user ){
+          userArr.push(user)
+        }
 
 
 
@@ -49,6 +54,13 @@ function findSeq(inputLog) {
     return userArr
 }
 
-console.log(findSeq(inputLog));
+console.log(findSeq( [{user: 1, action: 'A'}, 
+{user: 10, action: 'Z'},
+{user: 1, action: 'B'},
+{user: 1, action: 'C'},
+{user: 3, action: 'A'},
+{user: 3, action: 'B'},
+{user: 1, action: 'K'},
+{user: 3, action: 'C'},]));
 
 // const errorLog = (arr) => arr.filter(user => user.userId == 1)
